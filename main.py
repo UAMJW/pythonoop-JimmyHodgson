@@ -35,9 +35,9 @@ def crear_profesor():
     nombre = raw_input('Ingrese el nombre del profesor: ')
     edad   = raw_input('Ingrese la edad del profesor: ')
     correo = raw_input('Ingrese el correo del profesor: ')
-    carrera = raw_input('Ingrese la carrera del profesor: ')
+    facultad = raw_input('Ingrese la facultad del profesor: ')
 
-    profesorNuevo = Profesor(nombre,edad,correo,[carrera])
+    profesorNuevo = Profesor(nombre,edad,correo,facultad)
     profesores.append(profesorNuevo)
     print ''
 def listar_estudiantes():
