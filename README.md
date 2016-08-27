@@ -20,5 +20,10 @@ print 'Hello, World!'
 Para ejecutar el proyecto debemos abrir la consola de comandos y ejecutar el siguiente comando:
 
 ```
-    > python main.py
+> python main.py
+```
+
+Para ejecutar las pruebas se debe ejecutar el siguiente comando desde la consola
+```
+> python -m test.runner
 ```
