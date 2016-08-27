@@ -14,6 +14,17 @@ El objetivo de esta tarea es el de aprender los conceptos básicos del lenguaje 
 print 'Hello, World!'
 
 ```
+## Estructura de una clase
+```python
+class myClass(object):
+    def __init__(self,valor):
+        #constructor
+        self.propiedad = valor
+    def method(self):
+        #método que imprime en pantalla la propiedad de la clase
+        print self.propiedad
+        
+```
 
 ## Guía de Ejecución
 
